@@ -38,6 +38,7 @@ export default function App() {
             <li key={value.char_id}>
               <h2>{value.name}</h2>
               <p>{value.birthday}</p>
+              <p>{value.occupation} </p>
               <img className="image" src={value.img} alt={value.name} />
             </li>
           ))}
